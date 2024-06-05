@@ -1,7 +1,7 @@
 //Java Program to Count the Occurrences of Each Character
 package String;
 import java.util.Scanner;
-public class CountOccurrence {
+public class CountOccurrenceOfCharacter {
     public static void main(String[] args) {
         //String s = "hello world";
         Scanner sc = new Scanner(System.in);
@@ -21,9 +21,8 @@ public class CountOccurrence {
                     count++;
                 }
             }
-
             System.out.println(ch + " -> " + count);
-        }
+        }sc.close();
     }
 }
 /*h ->1
