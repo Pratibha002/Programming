@@ -22,15 +22,18 @@ public class TripletThatSumToAGivenValue {
         System.out.println("Given array :"+arr);
         int X = 13;
         boolean contains=false;
-
+        int firstElement=0,secondElement=0,thirdElement=0;
         for(int i=0; i< arr.size()-1; i++){
             int required =X- (arr.get(i) + arr.get(i+1));
             if(arr.contains(required)){
                 contains=true;
+                firstElement=arr.get(i);
+                secondElement=arr.get(i+1);
+                thirdElement=required;
             }
 //            System.out.println(required);
         }if(contains){
-            System.out.println("Triplet found !!");
+            System.out.println("Triplet found : "+firstElement+", "+secondElement+", "+thirdElement);
         }else {
             System.out.println("Triplet not found !!");
         }
