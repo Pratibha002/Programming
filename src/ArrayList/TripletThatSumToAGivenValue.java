@@ -5,7 +5,7 @@
      random r
     we use  contains() method
 */
-package Array;
+package ArrayList;
 
 import java.util.ArrayList;
 
