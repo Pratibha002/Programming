@@ -23,10 +23,27 @@ public class MultipleSetUniqueElements {
             h2.add(i);
         }
         System.out.println("SET 3 : " +h2);
-        HashSet<Integer> unionSet = new HashSet<>(h);
-        unionSet.addAll(h1);
-        unionSet.addAll(h2);
-        System.out.println("UNION SET : "+unionSet);
+
+        HashSet<Integer> uniqueSet = new HashSet<>(h);
+        uniqueSet.removeAll(h1);
+        uniqueSet.removeAll(h2);
+        System.out.println("UNIQUE SET : "+uniqueSet);
+
+        HashSet<Integer> uniqueSet2 = new HashSet<>(h1);
+        uniqueSet2.removeAll(h);
+        uniqueSet2.removeAll(h2);
+        System.out.println("UNIQUE SET : "+uniqueSet2);
+
+        HashSet<Integer> uniqueSet3 = new HashSet<>(h2);
+        uniqueSet3.removeAll(h1);
+        uniqueSet3.removeAll(h);
+        System.out.println("UNIQUE SET : "+uniqueSet3);
+
+
+//        HashSet<Integer> unionSet = new HashSet<>(h);
+//        unionSet.addAll(h1);
+//        unionSet.addAll(h2);
+//        System.out.println("UNION SET : "+unionSet);
 
     }
 }
