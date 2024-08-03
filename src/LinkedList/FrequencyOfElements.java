@@ -8,7 +8,8 @@ public class FrequencyOfElements {
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter the target Element : ");
         String target =sc.nextLine().toLowerCase();
-        LinkedList<String> ll =new LinkedList<>();//with Objects .toLowerCase and .toUpperCase doesn't work
+        LinkedList<String> ll =new LinkedList<>();
+        //with Objects .toLowerCase and .toUpperCase doesn't work
         //first String.valueOf(obj) do conversion then can use the uppercase ,lowercase methods
 
         ll.add("Mango");
