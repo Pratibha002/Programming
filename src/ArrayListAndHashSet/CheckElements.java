@@ -1,6 +1,7 @@
 package ArrayListAndHashSet;
 import java.util.ArrayList;
 import java.util.HashSet;
+
 public class CheckElements {
 
     public static void main(String[] args) {
