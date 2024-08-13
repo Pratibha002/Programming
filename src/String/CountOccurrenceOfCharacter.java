@@ -25,7 +25,7 @@ public class CountOccurrenceOfCharacter {
         }sc.close();
     }
 }
-/*h ->1
+/* h ->1
    e ->2
    l ->3
    l ->ignore
