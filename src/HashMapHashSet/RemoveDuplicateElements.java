@@ -15,14 +15,15 @@ public class RemoveDuplicateElements {
         for (int[] i : a) {
             for (int num : i) {
                 h.add(num);
-                elementCountMap.put(num, elementCountMap.getOrDefault(num, 0) + 1);
+                elementCountMap.put(num, elementCountMap.getOrDefault(num,0) + 1);
             }
         }
         // HashSet
-        System.out.println("Unique elements using Set:");
-        for (Integer num : h) {
-            System.out.print(num + " ");
-        }
+        System.out.println("Unique elements using Set:"+h);
+//        for (Integer num : h) {
+//            System.out.print(num + " ");
+//        }
+
         System.out.println();
 
         //HashMap
