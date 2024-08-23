@@ -13,6 +13,7 @@ public class ReverseElements {
         System.out.println("Reverse List: "+a);
 
 
+
         //=======we can write it as=================
 //        ArrayList<String>a =new ArrayList<>(Arrays.asList("a","b","c","d"));
 //
