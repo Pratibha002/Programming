@@ -11,9 +11,10 @@ public class RemoveNthElement {
         LinkedList<String>ll=new LinkedList<>(Arrays.asList("a", "b", "c", "d", "e", "f", "g"));
         System.out.println("List of the elements: "+ll);
         Scanner sc =new Scanner(System.in);
+        System.out.println("LinkedList Size: "+ll.size());
         System.out.println("Enter the nth Element: ");
         int nElement= sc.nextInt();
-        if(nElement<=0 && nElement>=ll.size()){
+        if(nElement<0 || nElement>=ll.size()){
 
             System.out.println("Invalid nth element/ invalid index : "+nElement);
         }else {
