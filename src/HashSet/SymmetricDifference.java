@@ -15,6 +15,7 @@ public class SymmetricDifference {
         System.out.println("intersection"+intersection);
 
         HashSet<Integer> symmetricDifference = new HashSet<>(set1);
+        symmetricDifference.addAll(set2);
         symmetricDifference.removeAll(intersection);
         System.out.println("symmetricDifference: "+symmetricDifference);
 
