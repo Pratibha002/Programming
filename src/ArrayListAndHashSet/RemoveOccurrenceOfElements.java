@@ -22,6 +22,5 @@ public class RemoveOccurrenceOfElements {
         }
         System.out.println("ArrayList after removing the occurrence of the element: "+finalList);
         sc.close();
-
     }
 }
