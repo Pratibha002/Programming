@@ -24,7 +24,7 @@ public class MatrixTranspose2 {
     }
     public static void transpose(int[][]a){
         int rows = a.length;
-        int cols = a[0].length;//a[0]first row, a[0].length=>gives number of cols in the 1st row
+        int cols = a[0].length;//a[0]first row, a[0].length=>gives number of cols/ elements present in the 1st row, that elements represent the no. of col
 
         // Print the transpose of the matrix
         System.out.println("TRANSPOSE OF MATRIX: ");
