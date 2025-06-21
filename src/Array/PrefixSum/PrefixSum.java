@@ -11,6 +11,7 @@ public class PrefixSum {
         System.out.println("PREFIX SUM ARRAY");
         printArray(a);
 
+
     }
     static int[] takeInput(){
         Scanner sc =new Scanner(System.in);
